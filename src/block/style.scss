@@ -1,0 +1,85 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-notifications  {
+  .notification {
+    border: 2px solid green;
+    padding: 0.5em 1em;
+    border-radius: 0.7em;
+    display: flex;
+    align-items: center;
+    background: white;
+    flex-wrap: wrap;
+
+    h6 {
+      margin: 0 1em 0 0;
+      padding: 0;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    span::before {
+      display: block;
+      font-family: "dashicons";
+      font-size: 35px;
+    }
+  }
+
+  .success {
+    border-color: green;
+
+    h6 {
+      color: green;
+    }
+    
+    span::before {
+      content: "\f147";
+      color: rgb(43, 233, 43);
+    }
+  }
+
+  .error {
+    border-color: red;
+
+    h6 {
+      color: red;
+    }
+
+    span::before {
+      content: "\f158";
+      color: rgb(255, 155, 155);
+    }
+  }
+
+  .notice {
+    border-color: #d9edf7;
+
+    h6 {
+      color: #d9edf7;
+    }
+
+    span::before {
+      content: "\f534";
+      color: #79c9f1;
+    }
+  }
+  
+  .warning {
+    border-color: #ffe564;
+
+    h6 {
+      color: #ffe564;
+    }
+
+    span::before {
+      content: "\f155";
+      color: #ecc916;    
+    }
+  }
+}

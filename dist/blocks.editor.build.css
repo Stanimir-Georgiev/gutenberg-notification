@@ -1,0 +1,34 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-cgb-block-notifications {
+  background: #bada55;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+  border-radius: 1.5em; }
+  .wp-block-cgb-block-notifications .content label {
+    display: block; }
+  .wp-block-cgb-block-notifications .content select {
+    width: 70%;
+    padding: 0.5em 2em; }
+  .wp-block-cgb-block-notifications .content input {
+    display: block;
+    width: 70%;
+    padding: 1em 2em; }
+  .wp-block-cgb-block-notifications .content textarea {
+    padding: 1em 2em;
+    width: 70%; }
+  .wp-block-cgb-block-notifications .content div:not(:last-child) {
+    margin-bottom: 1em; }

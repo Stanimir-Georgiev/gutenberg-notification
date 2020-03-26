@@ -1,0 +1,64 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-notifications .notification {
+  border: 2px solid green;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  background: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .wp-block-cgb-block-notifications .notification h6 {
+    margin: 0 1em 0 0;
+    padding: 0; }
+  .wp-block-cgb-block-notifications .notification p {
+    margin: 0;
+    padding: 0; }
+  .wp-block-cgb-block-notifications .notification span::before {
+    display: block;
+    font-family: "dashicons";
+    font-size: 35px; }
+
+.wp-block-cgb-block-notifications .success {
+  border-color: green; }
+  .wp-block-cgb-block-notifications .success h6 {
+    color: green; }
+  .wp-block-cgb-block-notifications .success span::before {
+    content: "\f147";
+    color: #2be92b; }
+
+.wp-block-cgb-block-notifications .error {
+  border-color: red; }
+  .wp-block-cgb-block-notifications .error h6 {
+    color: red; }
+  .wp-block-cgb-block-notifications .error span::before {
+    content: "\f158";
+    color: #ff9b9b; }
+
+.wp-block-cgb-block-notifications .notice {
+  border-color: #d9edf7; }
+  .wp-block-cgb-block-notifications .notice h6 {
+    color: #d9edf7; }
+  .wp-block-cgb-block-notifications .notice span::before {
+    content: "\f534";
+    color: #79c9f1; }
+
+.wp-block-cgb-block-notifications .warning {
+  border-color: #ffe564; }
+  .wp-block-cgb-block-notifications .warning h6 {
+    color: #ffe564; }
+  .wp-block-cgb-block-notifications .warning span::before {
+    content: "\f155";
+    color: #ecc916; }

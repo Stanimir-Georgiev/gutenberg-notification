@@ -1,0 +1,42 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-block-notifications  {
+  background: $green;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+  border-radius: 1.5em;
+
+  .content {
+    label {
+      display: block;
+    }
+
+    select {
+      width: 70%;
+      padding: 0.5em 2em;
+    }
+
+    input {
+      display: block;
+      width: 70%;
+      padding: 1em 2em;
+    }
+
+    textarea {
+      padding: 1em 2em;
+      width: 70%;
+    }
+
+    div:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
+}
